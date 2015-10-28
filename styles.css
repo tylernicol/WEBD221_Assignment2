@@ -1,0 +1,171 @@
+* {
+    font-family: Raleway;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/background.png);
+    background-size: cover;
+    color: #292929;
+}
+
+#main-wrapper {
+    background-color: #ffffff;  
+    max-width: 60%;
+    min-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/* Navigation */
+
+nav {
+    max-width: 60%;
+    min-width: 800px;
+    margin: 0 auto;
+    background-color: #B62537;
+    text-align: center;
+}
+
+nav ul {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+    height: 60px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0;
+}
+
+nav a {
+    font-family: 'Open Sans', arial, sans-serif;
+    display: block;
+    text-decoration: none;
+    height: 60px;
+    width: 130px;
+    line-height: 60px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all 0.4s ease;
+}
+
+nav a:hover,
+.current-page {
+    background-color: #3D4751;
+    border-bottom: solid 6px #52A1D2;
+}
+
+/* Side Bar */
+
+aside {
+    width: 25%;
+    float: left;
+    padding: 10px;
+}
+
+aside img {
+    max-width: 100%;
+    margin: 10px 0px;
+}
+
+aside h1 {
+    color: #2980B9;
+    margin: 20px 0;
+    font-size:2em;
+    padding: 2px;
+}
+
+aside h3 {
+    color: #2980B9;
+    margin: 0;
+    font-size:1.1em;
+    padding: 2px;
+}
+
+aside p {
+    color: #2980B9;
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+aside hr {
+    margin: 20px 0;
+}
+
+/* Main Content */
+
+main {
+    width: 75%;
+    float: right;
+    padding: 10px;
+}
+
+main h1 {
+    color: #B62537;
+    font-size: 3.5em;
+    margin: 0;
+}
+
+main h3 {
+    color: #B62537;
+    font-size: 2em
+}
+
+/* Main Content (Schedule Page Specific) */
+
+.schedule-page table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid black
+}
+
+.top-row {
+    background-color: #3D4751;
+    height: 20px;
+    color: white
+}
+
+.schedule-page td {
+    padding: 20px;
+    border-bottom: 1px solid black
+}
+
+.schedule-page h3 {
+    text-align: center;
+    margin: 0, 0, 0, 10px;
+
+}
+
+.clear {clear: both;}
+
+/* Footer */
+
+footer {
+    max-width: 60%;
+    min-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+footer h2 {
+    margin: 0;
+    font-size: 1.4em;
+    font-weight: 500
+}
+
+footer h3 {
+    font-size: 1.2em;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #BBDEFC;
+}
