@@ -139,6 +139,42 @@ main h3 {
 
 }
 
+/* Main Content (Schedule Page Specific) */
+
+form input{
+    color: white;
+    border: 0;
+    padding: 5px;
+    background-color: #3D4751;
+    width: 220px;
+    height: 30px;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+form input:focus {
+    outline: 0;
+    border-bottom: 5px solid #52A1D2;
+}
+
+select {
+    color: white;
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    border: 0px;
+    background-color: #3D4751;
+}
+
+label {
+    display: block;
+    font-size: 1.2em;
+    font-family: raleway;
+    font-weight: 700;
+    color: #B62537;
+    margin: 10px 0;
+}
+
 .clear {clear: both;}
 
 /* Footer */

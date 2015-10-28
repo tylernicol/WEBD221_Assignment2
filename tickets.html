@@ -9,9 +9,9 @@
 <body>
     <nav>
         <ul>
-            <li><a href="#" class="current-page">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="schedule.html">Schedule</a></li>
-            <li><a href="tickets.html">Tickets</a></li>
+            <li><a href="#" class="current-page">Tickets</a></li>
         </ul>
     </nav>
     <div id="main-wrapper">
@@ -30,14 +30,22 @@
             
             <h1>#PAC2015</h1>
         </aside>
-        <main>
-            <h1>Welcome to Paper Airplane-Con 2015</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, iusto quia, aut consequatur blanditiis, numquam labore minima modi, alias aperiam pariatur nobis! Eligendi a possimus voluptates accusamus aspernatur vitae, iure! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, itaque obcaecati facere. Accusantium enim obcaecati perspiciatis, laborum quod vel minus iste voluptatibus quidem, voluptas assumenda alias, tempora maxime nesciunt. Ipsum.</p>
-            <hr>
-            <h3>Keynote Speaker, Super Paper Airplane Dude</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quae quod iste voluptas, neque, nesciunt. Nesciunt aperiam, sapiente nisi debitis a magnam, quisquam libero perspiciatis ratione minima, molestiae. Eligendi, beatae.</p>
-            <h3>Airplane Throwing Contest</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quae quod iste voluptas, neque, nesciunt. Nesciunt aperiam, sapiente nisi debitis a magnam, quisquam libero perspiciatis ratione minima, molestiae. Eligendi, beatae.</p>
+        <main class="tickets-page">
+            <h3>Reserve Tickets Now!</h3>
+            <form action="purchase">
+                <label for="firstName">First Name</label>
+                <input type="text" name="firstName" required>
+                <label for="lastName">Last Name</label>
+                <input type="text" name="lastName" required>
+                <label for="email">Email Address</label>
+                <input type="email" name="email" required>
+                <label for="ticketType">Ticket Type</label>
+                <select name="ticketType" id="ticket-type">
+                    <option value="standard">Standard</option>
+                    <option value="vip">VIP</option>
+                    <option value="allAccess">All Access</option>
+                </select>
+            </form>
         </main>
         <div class="clear"></div>
     </div>
